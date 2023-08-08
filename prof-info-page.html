@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    html,
+    body,
+    header,
+    .carousel {
+      height: 60vh;
+    }
+
+    @media (max-width: 740px) {
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+
+      @media (min-width: 800px) and (max-width: 850px) {
+
+        html,
+        body,
+        header,
+        .carousel {
+          height: 100vh;
+        }
+      }
+
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Секция HEADER -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling -navbar">
+    <div class="container">
+      <a href="#" class="navbar-brand waves-effect">
+        <strong class="blue-text">English shool</strong>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> <!-- Для адаптивки при телефонной версиии наши разделы  li сворачиваются при нажатие в мб версии -->
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link waves-effect">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a href="#curs" class="nav-link waves-effect">О курсе</a>
+          </li>
+          <li class="nav-item">
+            <a href="#questions" class="nav-link waves-effect">Уроки</a>
+          </li>
+          <li class="nav-item">
+            <a href="#footer-block" class="nav-link waves-effect">Блог</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="#" class="button-header nav-link">
+              <span class="button-header-text">Записаться на курсы</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="http://Wa.me/+996220153217" class="nav-link waves-effect">
+              <img src="img/free-icon-whatsapp-1384023.png" alt="">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.instagram.com/ius_s05/" class="nav-link waves-effect">
+              <img src="img/free-icon-instagram-1384031.png" alt="">
+            </a>
+          </li>
+          <li class="nav-item d-flex">
+            <a href="#" class="nav-link border border-light rounded waves-effect">
+              <img src="img/free-icon-telegram-logo-87413.png" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <main class="mt-5 pt-4">
+    <div class="container dark-grey-text mt-5">
+      <div class="row wow fadeIn">
+        <div class="col-md-6 mb-4">
+          <img style="border-radius: 50px;"
+            src="https://phonoteka.org/uploads/posts/2021-05/1621913276_12-phonoteka_org-p-fon-dlya-uchitelya-angliiskogo-yazika-13.jpg"
+            alt="" class="img-fluid">
+        </div>
+        <div id="curs" class="col-md-6 mb-4">
+          <div class="pd-4">
+            <div class="mb-3">
+              <a href="">
+                <spane class="badge purple mr-1">английский язык</spane>
+              </a>
+              <a href="">
+                <spane class="badge blue mr-1">для детей</spane>
+              </a>
+              <a href="">
+                <spane class="badge red mr-1">9+</spane>
+              </a>
+            </div>
+            <p class="lead">
+              <span>Курсы для начинающих</span>
+            </p>
+            <p class="lead font-wheit-bold">Данный курс</p>
+            <p>Поможет вам освоить первоначальные базовые знание английского языка, английский язык будет преподоваться
+              на уровне
+              начальных классов, где поэтапно и подробно будут обьясняться темы, изучения слов и многое другое
+              <br>ТЕМЫ КУРСА:
+              <li>Знакомство с алфавитом</li>
+              <li>Произношение букв</li>
+              <li>Начальные слова</li>
+              <li>Прошлое время</li>
+              <li>Настоящее время</li>
+              <li>Будущее время</li>
+              <li>Повторение тем</li>
+              <li>Тест на данный курс</li>
+            </p>
+            <form action="" class="d-flex justify-content-left">
+              <!-- <input type="number" value="1" aria-label="Search" style="width: 100px;" class="form control"> -->
+              <button type="submit" class="btn btn-primary btn-md my-0 p">
+                Начать курс
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row d-flex justify-content-center wow fadeIn">
+        <div class="">
+          <h4 id="questions" class="my-4 h4 text-center">Видео уроки данного курса</h4>
+          <!-- <p class="my-4 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quibusdam
+            nesciunt
+            iusto eaque
+            officiis, soluta non, eligendi, molestiae magni eos maiores ratione saepe voluptatibus rerum. Temporibus at
+            quidem deleniti voluptatum architecto vitae. Aliquid magnam iusto deserunt enim eos voluptas natus sapiente
+            architecto odit amet, facere, molestiae maxime provident fuga impedit?Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Repudiandae tempora nisi tempore corporis fugit voluptas aspernatur, magnam
+            magni atque quae? In tempora cumque delectus hic. Minima dolorem quaerat exercitationem id. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Neque labore ipsa temporibus rem dolorum blanditiis facere,
+            voluptas enim iusto architecto?</p> -->
+          <div class="li-element-info">
+            <div class="video-en">
+              <a href="https://youtu.be/Hp9wUEDasY4">Урок 1</a>
+            </div>
+            <div class="video-en">
+              <a href="https://youtu.be/nXI9CN5a6ew">Урок 2</a>
+            </div>
+            <div class="video-en">
+              <a href="https://youtu.be/nXI9CN5a6ew">Урок 3</a>
+            </div>
+            <div class="video-en">
+              <a href="https://youtu.be/1nkoP6NosxU">Урок 4</a>
+            </div>
+            <div class="video-en">
+              <a href="https://youtu.be/1nkoP6NosxU">Урок 5</a>
+            </div>
+            <div class="video-en">
+              <a href="https://youtu.be/1nkoP6NosxU">Урок 6</a>
+            </div>
+            <!-- <li>Урок 2 : <a href="https://youtu.be/Hp9wUEDasY4">https://youtu.be/Hp9wUEDasY4</a></li>
+            <li>Урок 3 : <a href="https://youtu.be/Hp9wUEDasY4">https://youtu.be/Hp9wUEDasY4</a></li>
+            <li>Урок 4 : <a href="https://youtu.be/Hp9wUEDasY4">https://youtu.be/Hp9wUEDasY4</a></li>
+            <li>Урок 5 : <a href="https://youtu.be/Hp9wUEDasY4">https://youtu.be/Hp9wUEDasY4</a></li>
+            <li>Урок 6 : <a href="https://youtu.be/Hp9wUEDasY4">https://youtu.be/Hp9wUEDasY4</a></li>
+            <li>Урок 7 : <a href="https://youtu.be/Hp9wUEDasY4">https://youtu.be/Hp9wUEDasY4</a></li> -->
+          </div>
+          <div class="li-element-info">
+            <div class="video-en">
+              <a href="https://youtu.be/1nkoP6NosxU">Урок 7</a>
+            </div>
+            <div class="video-en">
+              <a href="https://youtu.be/1nkoP6NosxU">Урок 8</a>
+            </div>
+            <div class="video-en">
+              <a href="https://youtu.be/Hp9wUEDasY4">Урок 9</a>
+            </div>
+            <div class="video-en">
+              <a href="https://youtu.be/Hp9wUEDasY4">Урок 10</a>
+            </div>
+            <div class="video-en">
+              <a href="https://youtu.be/Hp9wUEDasY4">Урок 11</a>
+            </div>
+            <div class="video-en">
+              <a href="https://youtu.be/Hp9wUEDasY4">Урок 12  </a>
+            </div>
+            <!-- <li>Урок 2 : <a href="https://youtu.be/Hp9wUEDasY4">https://youtu.be/Hp9wUEDasY4</a></li>
+            <li>Урок 3 : <a href="https://youtu.be/Hp9wUEDasY4">https://youtu.be/Hp9wUEDasY4</a></li>
+            <li>Урок 4 : <a href="https://youtu.be/Hp9wUEDasY4">https://youtu.be/Hp9wUEDasY4</a></li>
+            <li>Урок 5 : <a href="https://youtu.be/Hp9wUEDasY4">https://youtu.be/Hp9wUEDasY4</a></li>
+            <li>Урок 6 : <a href="https://youtu.be/Hp9wUEDasY4">https://youtu.be/Hp9wUEDasY4</a></li>
+            <li>Урок 7 : <a href="https://youtu.be/Hp9wUEDasY4">https://youtu.be/Hp9wUEDasY4</a></li> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <footer id="footer-block" class="page-footer text-center font-small mt-4 wow fadeIn">
+      <div class="pt-4">
+        <a href="http://Wa.me/+996220153217" role="button" class="btn btn-outline-white">тел: +996 153 217
+          <i class="fa fa-graduation-cap ml-2"></i></a>
+
+        <a href="https://www.google.com/maps/place/FCV2%2B9C2,+%D0%9A%D0%B0%D1%80%D0%B0%D0%BA%D0%BE%D0%BB/@42.4934772,78.3996423,18z/data=!4m9!1m2!2m1!1z0LrQsNGA0LDQutC-0Lsg0LPQsNCz0LDRgNC40L3QsCAxMw!3m5!1s0x38865beeab015b97:0x10bd3a443fa3dedb!8m2!3d42.4934772!4d78.4010861!16s%2Fg%2F11qbxw26zl?hl=ru-RU&entry=ttu"
+          role="button" class="btn btn-outline-white">Местоположение
+          <i class="fa fa-graduation-cap ml-2"></i></a>
+      </div>
+      <hr class="my-4">
+      <div class="pb-4">
+        <a href="https://www.instagram.com/ius_s05/">
+          <img class="footer-img" src="img/footer-img/icons8-instagram.svg" alt="">
+        </a>
+        <a href="http://Wa.me/+996220153217">
+          <img class="footer-img" src="img/footer-img/icons8-whatsapp.svg" alt="">
+        </a>
+        <a href="#">
+          <img class="footer-img" src="img/footer-img/icons8-телеграмма-app.svg" alt="">
+        </a>
+      </div>
+      <div class="footer-copyright py-3">
+        English shool
+      </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript"></script>
+
+    <script>
+      new WOW().init();
+    </script>
+
+</body>
+
+</html>

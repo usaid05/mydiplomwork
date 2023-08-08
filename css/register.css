@@ -1,0 +1,26 @@
+
+body {
+    
+}
+
+.king-section-register{
+    width: 500px;
+    height: 500px;
+    display: contents;
+    
+}
+.register-block {
+    
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-block > input {
+    margin-top: 20px;
+
+}
+
+.register-section {
+    border: 2px solid black;
+}
